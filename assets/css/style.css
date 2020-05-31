@@ -434,8 +434,43 @@ nav ul li a {
   color: #000;
 }
 
+/* SKILLS */
 
+.custom-ul{
+  width: 90%;
+  list-style-type:none;
+  margin:auto;
+  padding:0 ;
+  padding-right: 15%;
+  position:relative;
+  left:5%
+}
 
+.skill-list{
+  list-style: none;
+}
+.softskill-desc{
+  margin: 0;
+  padding: 0;
+}
+.softskill{
+  margin: 3px 0;
+  font-size: .9rem;
+  padding: 0;
+
+}
+.skill-category{
+  font-weight: 700;
+  padding-top: 7%;
+  color: #36363c;
+  text-transform: uppercase;
+}
+
+.skill-category-item{
+  margin: 3px 0;
+  font-size: .9rem;
+}
+/* End SKILLS */
 
 /* .skills-section h3 {
     font-weight: 400;
