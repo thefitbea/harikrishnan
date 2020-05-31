@@ -435,12 +435,9 @@ nav ul li a {
 }
 
 
-/* SKILLS */
-.skills-section {
-    /*background: mistyrose;*/
-}
 
-.skills-section h3 {
+
+/* .skills-section h3 {
     font-weight: 400;
     font-size: 18px;
     margin: 0 0 50px;
@@ -512,7 +509,7 @@ nav ul li a {
         width: 100%;
         height: auto;
     }
-}
+} */
 
 .places-worked {
     /*background: mistyrose;*/
