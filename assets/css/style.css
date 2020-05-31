@@ -268,6 +268,7 @@ nav ul li a {
   top: 30%;
 }
 
+
 /*-----------------------------------------------------------------------------------*/
 /*  About
 /*-----------------------------------------------------------------------------------*/
@@ -883,6 +884,32 @@ blockquote {
   border-left: 4px solid #b8a07e;
 }
 
+/* ROCKET */
+
+#to-top {
+    transition: all 0.5s;
+}
+
+#to-top:hover {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+
+#to-top img {
+    width: 50px;
+    padding: 5px;
+    margin: 10px auto 0px;
+}
+
+#to-top-copy {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+/* ROCKET */
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
