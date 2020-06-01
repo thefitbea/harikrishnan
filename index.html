@@ -397,8 +397,14 @@
             </div>
 
             <div class="col-lg-6">
-              <form action="mailto:thefitbea@gmail.com?subject=Hi" method="post" role="form" class="php-email-form" netlify>
+              <form action="mailto:thefitbea@gmail.com?subject=Hi" method="post" role="form" class="php-email-form" data-netlify="true" netlify-honeypot="bot-field">
                 <div class="row">
+                  <div hidden aria-hidden="true">
+                    <label>
+                    Don’t fill this out if you're human:
+                    <input name="bot-field" />
+                  </label>
+                </div>
 
                   <div class="col-lg-6">
                     <div class="form-group contact-block1">
