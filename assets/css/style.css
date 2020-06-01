@@ -739,7 +739,7 @@ img#nu-logo {
   margin-bottom: 5px;
 }
 
-.php-email-form .validate {
+.email-form .validate {
   display: none;
   color: red;
   margin: 0 0 20px 0;
@@ -747,7 +747,7 @@ img#nu-logo {
   font-size: 13px;
 }
 
-.php-email-form .error-message {
+.email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -756,7 +756,7 @@ img#nu-logo {
   font-weight: 600;
 }
 
-.php-email-form .sent-message {
+.email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -765,14 +765,14 @@ img#nu-logo {
   font-weight: 600;
 }
 
-.php-email-form .loading {
+.email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.php-email-form .loading:before {
+.email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
