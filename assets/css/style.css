@@ -470,6 +470,22 @@ nav ul li a {
   margin: 3px 0;
   font-size: .9rem;
 }
+
+.always-glow{
+  border-radius: 100%;
+  width: 20%;
+  position: relative;
+  left: 37.5%;
+  text-align: center;
+  background-color: #b8a07e;
+  color: #fff;
+}
+.glow:hover{
+  /* background-color: rgb(125, 255, 179); */
+  background-color: #b8a07e;
+  color: #fff;
+;
+}
 /* End SKILLS */
 
 /* .skills-section h3 {
