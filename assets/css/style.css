@@ -484,7 +484,9 @@ nav ul li a {
   /* background-color: rgb(125, 255, 179); */
   background-color: #b8a07e;
   color: #fff;
-;
+}
+.for-style-only{
+  padding-top: 17.5%;
 }
 /* End SKILLS */
 
