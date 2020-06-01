@@ -935,6 +935,9 @@ blockquote {
 }
 
 /* ROCKET */
+.scotty{
+  font-size: 2rem;
+}
 
 #to-top {
     transition: all 0.5s;
@@ -942,7 +945,8 @@ blockquote {
 
 #to-top:hover {
     background-color: transparent;
-    color: #fff;
+    /* background-color: #b8a07e; */
+    color: #000;
     text-decoration: none;
 }
 
