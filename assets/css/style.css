@@ -820,6 +820,14 @@ img#nu-logo {
   background: #f7f7f7;
 }
 
+.block-main{
+  text-align: center;
+}
+.blog-post-image{
+  position: relative;
+  width: 70%;
+  height: auto;
+}
 .main-content .container-main {
   display: inline-block;
   width: 100%;
@@ -933,7 +941,17 @@ blockquote {
   border: none;
   border-left: 4px solid #b8a07e;
 }
-
+.other-list{
+  padding-top: 3%;
+  list-style: none;
+  line-height: 1.5;
+}
+.other-list-desc:hover{
+  /* background-color: #b8a07e; */
+  color: #b8a07e;
+  line-height: 1.5;
+  font-size: 1rem;
+}
 /* ROCKET */
 .scotty{
   font-size: 2rem;
