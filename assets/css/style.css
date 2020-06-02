@@ -819,7 +819,12 @@ img#nu-logo {
 .main-content {
   background: #f7f7f7;
 }
-
+.blog-image{
+  padding: 5% 0%;
+  /* border-radius: 25%; */
+  width: 30%;
+  height: auto;
+}
 .block-main{
   text-align: center;
 }
