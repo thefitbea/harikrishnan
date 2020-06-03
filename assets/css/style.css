@@ -819,6 +819,9 @@ img#nu-logo {
 .main-content {
   background: #f7f7f7;
 }
+.fitbea-post-align{
+  text-align: center;
+}
 .blog-image{
   padding: 5% 0%;
   /* border-radius: 25%; */
