@@ -1400,3 +1400,25 @@ blockquote {
     margin-right: 0;
   }
 }
+
+
+/* CUSTOM STYLING */
+@media (max-width: 768px) {
+    .icon-holder{
+        height: 7%;
+        text-align: center;
+    }
+    .hero-content .list-social li i{
+      font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .icon-holder{
+        height: 7%;
+
+    }
+    .hero-content .list-social li i{
+      font-size: 1.3rem;
+    }
+/* CUSTOM STYLING */
