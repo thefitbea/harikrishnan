@@ -19,6 +19,7 @@
   <!--Embedded fonts-->
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
 
   <title>Fitbea-Helping people to be fit</title>
 </head>
@@ -67,8 +68,15 @@
         <!-- Title -->
         <div class="col-lg-6 col-md-12 col-sm-12">
           <h1 class="brand-caption">We will help you become fit without breaking a sweat.</h1>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <form id="mc-form" class="invite-form" novalidate="true">
+                    <span class="invite-input-wrapper input">
+                      <input type="email" id="mc_email" placeholder="Enter your email to start" class="invite-input" name="EMAIL">
+                    </span>
+                    <label class="padding-top20" id="mc_notification"></label>
+                </form>
+                <button type="button" class="btn btn-outline-light btn-lg download-button submit"> Subscribe</button>
+          <!-- <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button> -->
 
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
