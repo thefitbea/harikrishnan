@@ -31,6 +31,63 @@ body{
     padding: 3% 15% 7%;
 }
 
+/* ENTER EMAIL FORM */
+.cd-intro .invite-form {
+    position: relative;
+    display: block;
+    margin: 35px auto 0;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.invite-form input {
+    vertical-align: bottom;
+    outline: none;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.9em;
+    padding: 13px 15px;
+    box-sizing: border-box;
+    width: 260px;
+    height: 51px;
+    border-radius: 10px 0 10px 0px;/*New Way of defining border Radius*/
+    border: 2px solid white;
+    color: #222 !important;
+}
+
+.invite-form button {
+    vertical-align: top;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5rem;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    border-radius: 0 4px 4px 0;
+    text-transform: uppercase;
+    outline: none;
+    text-shadow: none;
+    position: relative;
+    left: -5px;
+}
+
+/* .cd-intro .invite-form {
+    position: relative;
+    display: block;
+    margin: 35px auto 0;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.05em;
+} */
+
 .download-button{
     margin: 5% 3% 5% 0px;
 }
