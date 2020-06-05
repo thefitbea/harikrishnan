@@ -27,6 +27,19 @@
 </head>
 
 <body>
+
+  <!-- Preloader Start -->
+  <!-- <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+          <div class="preloader-inner position-relative">
+              <div class="preloader-circle"></div>
+              <div class="preloader-img pere-text">
+                  <img src="img/loader.jpg" alt="">
+              </div>
+          </div>
+      </div>
+  </div> -->
+  <!-- Preloader Start -->
   <!-- CYAN + WHITE color scheme -->
 
   <section class="top-section" id="title">
@@ -42,7 +55,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler01">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
             <!-- <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li> -->
             <li class="nav-item"><a class="nav-link" href="#founders">Team Fitbea</a></li>
             <li>
@@ -59,7 +72,7 @@
               </div>
             </li>
             <li>
-            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -171,8 +184,8 @@
 
   <section id="features">
 
-    <h2>We got you covered for all your fitness needs</h2>
-    <p>Simple and Awesome to use.</p>
+    <h2 class="why-us">Why Choose Us?<br>We got you covered for all your fitness needs</h2>
+    <p class="why-us-ans">Push Your Limits Forward</p>
 
 <div class="row">
   <!-- <div class="card-deck"> -->
@@ -240,8 +253,8 @@
   <section class="action-call" id="cta">
 
     <h3 class="call-to-action-caption">Start your fitness journey with us.</h3>
-    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button" title="Android"><i class="fab fa-google-play"></i> Download</button>
+    <button type="button" class="btn btn-dark btn-lg download-button" title="iPhone"><i class="fab fa-apple"></i> Download</button>
 
   </section>
 
@@ -249,10 +262,14 @@
   <!-- Footer -->
 
   <footer class="contact-footer" id="footer">
-      <a href="https://twitter.com"><i class="fab fa-twitter social"></i></a>
-      <a href="https://facebook.com"><i class="fab fa-facebook-f social"></i></a>
-      <a href="https://instagram.com"><i class="fab fa-instagram social"></i></a></a>
-      <a href="mailto:thefitbea@gmail.com"><i class="fas fa-envelope social"></i></a>
+      <a href="https://twitter.com" title="Twitter"><i class="fab fa-twitter social"></i></a>
+      <a href="https://facebook.com" title="Facebook"><i class="fab fa-facebook-f social"></i></a>
+      <a href="https://instagram.com" title="Instagram"><i class="fab fa-instagram social"></i></a></a>
+      <a href="mailto:thefitbea@gmail.com" title="e-Mail"><i class="fas fa-envelope social"></i></a>
+      <!-- Scroll Up -->
+      <div id="" >
+          <a id="back-top" class="top-arrow" title="Go to Top" href="#title"> <i class="fas fa-level-up-alt "></i></a>
+      </div>
     <p class="copyright">© Copyright 2020 Fitbea</p>
     <!-- <span class="made-with">
     Made with <i class="fa fa-heart pulse heart-beat"></i> in <a class="made-place hari-web" href="" target="_blank">Kerala</a>
@@ -260,6 +277,8 @@
     <p class="maker-info">Website Designed by <a class="hari-web" href="../index.html"> Harikrishnan</a></p>
 
   </footer>
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
